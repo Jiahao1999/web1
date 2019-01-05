@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>帮5买</title>
+	<link rel="stylesheet" type="text/css" href="second.css">
+	<style type="text/css">
+		.b3111{
+			z-index: 99;
+			position: absolute;
+			top:100px;
+			left: 620px;
+			width: 432px;
+			height: 436px;
+			overflow:hidden;
+			display:none;
+		}
+		#slider{width:150px;
+			height:150px;
+			position:absolute;
+			left:0;top:0;
+			background:#CCC;
+			opacity:0.4;
+			cursor: move;
+			display:none;
+			filter:alpha(opacity=40);
+		}
+		.Bi{
+			position:absolute;
+			left:0;
+			top:0;
+			width: 1250px;
+			height: 1250px;
+			background: url(img/big1.jpeg) no-repeat;
+			background-size:cover;
+		}
+		.Bi2{
+			position:absolute;
+			left:0;
+			top:0;
+			width: 1250px;
+			height: 1250px;
+			background: url(img/big2.jpeg) no-repeat;
+			background-size:cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="up" id="cover">
+		<div class="upContent">
+			<div class="uc1">
+				<span style="position: absolute;font:12px;color: #9a9791;top:8px;">帮5买，享帮帮</span>
+				<div class="uc11">
+					<a href="" style="position: absolute;top:8px;"><img src="img/uc21.png"></a>
+					<a href="" style="position: absolute;left:37px;top:7px;"><img src="img/uc22.png"></a>
+					<a href="" style="position: absolute;left:74px;top:6px;"><img src="img/uc23.png"></a>
+					<span style="color: #9a9791;position: absolute;left:111px;font-size: 12px;top:10px;">登录</span>
+					<span style="color: #9a9791;position: absolute;left:153px;font-size: 12px;top:10px;">注册</span>
+					<span style="color: #9a9791;position: absolute;left:195px;font-size: 12px;top:10px;"><img src="img/uc24.png"> 消息</span>
+					<span style="color: #9a9791;position: absolute;left:255px;font-size: 12px;top:10px;"><img src="img/uc25.png"> 我的订单</span>
+					<span style="color: #9a9791;position: absolute;left:338px;font-size: 12px;top:10px;">我的收藏</span>
+					<span style="color: #9a9791;position: absolute;left:404px;font-size: 12px;top:10px;">帮钻兑换</span>
+					<span style="color: #9a9791;position: absolute;left:470px;font-size: 12px;top:10px;"><img src="img/uc26.png">手机版</span>
+					<span style="color: #9a9791;position: absolute;left:533px;font-size: 12px;top:10px;">淘5帮</span>
+					<span style="color: #9a9791;position: absolute;left:582px;font-size: 12px;top:10px;">客服服务</span>
+					<span style="color: #9a9791;position: absolute;left:649px;font-size: 12px;top:8px;"><img src="img/uc27.png"> 购物车</span>
+					<span style="color: #fe6c00;position: absolute;top:8px;right: 0px;">0</span>
+				</div>
+			</div>
+			<div class="uc2">
+				<div class="uc21"><img src="img/uc21.jpg"></div>
+				<div class="uc22">
+					<div class="uc221"></div>
+					<div class="uc222"><a href="" style="color: white;">搜全网</a></div>
+					<div class="uc223">
+						<a href style="width: 53px;color: red;">洗发护发 </a> <span style="color: grey"> | </span>
+						<a href style="width: 63px;color: red;">日本纸尿裤 </a> <span style="color: grey"> | </span>
+						<a href style="width: 45px;color: grey;">身体乳 </a> <span style="color: grey"> | </span>
+						<a href style="width: 53px;color: grey;">内衣文胸 </a> <span style="color: grey"> | </span>
+						<a href style="width: 53px;color: c1d8ff;">iPhone 6s </a> <span style="color: grey"> | </span>
+						<a href style="width: 53px;color: c1d8ff;">iPad Air2 </a> <span style="color: grey"> | </span>
+						<a href style="width: 45px;color: grey;">牛仔裤 </a> <span style="color: grey"> | </span>
+						<a href style="width: 45px;color: grey;">奶粉 </a> <span style="color: grey"> | </span>
+						<a href style="width: 45px;color: grey;">防晒霜 </a> <span style="color: grey"> | </span>
+						<a href style="width: 45px;color: grey;">伞</a>
+					</div>
+				</div>
+				<div class="uc23">
+					<div class="uc231">
+						<div class="uc2311"><img src="img/uc2311.png"></div>
+						<div class="uc2312">400-085-0505</div>
+					</div>
+					<div class="uc231">
+						<div class="uc2311"><img src="img/uc24.png"></div>
+						<div class="uc2312">mc@b5m.com</div>
+					</div>
+					<div class="uc232">
+						常见问题
+					</div>
+				</div>
+			</div>
+			<div class="uc3">
+				<div class="uc31"><a href="" style="color: white;">全部商品分类</a></div>
+				<div class="uc32"><a href="" style="color: black;">帮5赚</a></div>
+				<div class="uc32"><a href="" style="color: black;">帮韩品</a></div>
+				<div class="uc32"><a href="" style="color: black;">超划算</a></div>
+				<div class="uc32"><a href="" style="color: black;">品牌货栈</a></div>
+				<div class="uc32"><a href="" style="color: black;">韩国馆</a></div>
+				<div class="uc32"><a href="" style="color: black;">帮社区</a></div>
+				<div class="uc32"><a href="" style="color: black;">1元兑奖</a></div>
+				<div class="uc33"><img src="img/uc3.gif"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div style="background-color: #fe6c00;height: 1px;width: 100%;position: absolute;top:170px;">
+	<div class="b">
+		<div class="b1">
+			<ul>
+				<li style="background-color:#fe0d4a;">首页</li>
+				<li><a href="">热门品牌</a></li>
+				<li><a href="">美妆个户</a></li>
+				<li><a href="">服饰鞋包</a></li>
+				<li><a href="">母婴生活</a></li>
+				<li><a href="">食品保健</a></li>
+				<li><a href="">韩国首邮</a></li>
+				<li><a href="">跨境游</a></li>
+				<li><img src="img/b1.jpg" style="padding-left: 16px;"></li>
+			</ul>
+		</div>
+		<div class="b2">
+			首页>美容护肤/美体精油>防晒>韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶
+		</div>
+		<div class="b3">
+			<div class="b31" id="box">
+				<div class="b311" id="img1">
+					<div class="big1" id="big">
+					</div>
+					<div id="slider"></div>
+				</div>
+				<div class="b3111" id="img2">
+					<div id="Bimg" class="Bi"></div>
+				</div>
+				<div class="b312">
+					<span class="b3121">韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</span>
+					<span class="b3122">【限购三件】超透明无痕防晒，防水防汗定妆，保湿降温不粘腻。水晶防晒喷雾，喷后皮</span>
+					<span class="b3122">肤水润，不油，不留白，更不会像防晒霜那样抹不开，非常实用，开始存货吧。</span>
+					<p style="height: 50px;margin-left: 5px;">
+		            	<img src="img/b3123.gif">
+		            </p>
+		            <p style="height: 102px;margin-left: 5px;">
+		            	<img src="img/b3124.jpg">
+		            </p>
+		            <div class="bb">
+		            	<p class="bb1">化妆品净含量</p>
+		            	<p id="bb2" class="bb2">150ml</p>
+		            	<p id="bb3" class="bb3">200ml</p>
+		            </div>
+		            <div class="bc">
+		            	<span class="bc1">数量</span>
+		            	<input id="bc2" class="bc2" type="button" name="" value="-">
+		            	<input id="bc3" class="bc3" value="1" type="text" name="">
+						<input id="bc4" class="bc4" onclick="c()" type="button" name="" value="+">
+						<span>件(库存5件)</span>
+		            </div>
+		            <img src="img/bcu.jpg">
+		            <div class="bc5">
+		            	<span style="font-size: 13px;line-height: 40px;">您已选择</span>
+		            	<span class="bc6" id="bc6">"150"</span>
+		            </div>
+		            <div class="bc6" id="bc6"></div>
+		            <div style="margin-top: 20px;">
+		           		<div class="bc7">
+		           			<a href="" style="color:#ff0754">
+		           			立即购买
+		           			</a>
+		           		</div>
+		           		<div id="shop" class="bc8" onclick="shop()">
+		           			加入购物车
+		           		</div>
+		            </div>
+				</div>
+				<div class="b313">
+	    			<img src="img/b3131.jpg">
+			        <img id="small1" src="img/b3132.jpeg" class="so" style="cursor: pointer;">
+			        <img id="small2" src="img/b3133.jpeg" class="st" style="cursor: pointer;">
+			        <img src="img/b3134.jpg" style="margin-left: 250px;">
+			    </div>
+			</div>
+			<div class="b32">
+				<img src="img/b32.jpg">
+			</div>
+		</div>
+		<div class="b4">
+			<img src="img/b4.jpg">
+		</div>
+	<div class="down">
+		<div class="d">
+			<div class="dt">
+				<div class="dt1">
+					<img src="img/uc2111.png">
+					<div class="dt11">400-085-0505</div>
+					<div class="dt12"><span style="font-weight: bolder;">客服：</span>9:00-21:10</div>
+					<div class="dt12" style="top:158px;"><span style="font-weight: bolder;">邮箱：</span>mc@b5m.com</div>
+				</div>
+				<div class="dt2">
+					<ul>
+						<li style="font-size: 17px;">购物指南</li>
+						<li><a href="">如何下单</a></li>
+						<li><a href="">帮5购流程</a></li>
+						<li><a href="">订单查询</a></li>
+						<li><a href="">物流配送</a></li>
+					</ul>
+				</div>
+				<div class="dt2">
+					<ul>
+						<li style="font-size: 17px;">支付相关</li>
+						<li><a href="">支付方式</a></li>
+						<li><a href="">安全设置</a></li>
+						<li><a href="">账户信息</a></li>
+					</ul>
+				</div>
+				<div class="dt2">
+					<ul>
+						<li style="font-size: 17px;">售后服务</li>
+						<li><a href="">取消订单</a></li>
+						<li><a href="">申请售后</a></li>
+						<li><a href="">退货流程</a></li>
+						<li><a href="">退货相关</a></li>
+					</ul>
+				</div>
+				<div class="dt2">
+					<ul>
+					<li style="font-size: 17px;">VIP服务</li>
+					<li><a href="">VIP优惠</a></li>
+					<li><a href="">如何成为VIP</a></li>
+					<li><a href="">超级帮钻</a></li>
+					</ul>
+				</div>
+				<div class="dt2">
+					<ul>
+						<li style="font-size: 17px;">帮韩品</li>
+						<li><a href="">韩国正品</a></li>
+						<li><a href="">闪电发货</a></li>
+						<li><a href="">帮韩品售后</a></li>
+					</ul>
+				</div>
+				<div class="dt2">
+					<ul>
+						<li style="font-size: 17px;">更多</li>
+						<li><a href="">手机及APP</a></li>
+						<li><a href="">帮5采APP</a></li>
+						<li><a href="">帮5淘插件</a></li>
+						<li><a href="">其他</a></li>
+					</ul>
+				</div>
+				<div class="dt3">
+					<img src="img/dt3.png" style="margin-top: 27px;">
+				</div>
+			</div>
+			<div class="d1"></div>
+			<div class="db">
+				<div class="db1">
+					<li><a href="">关于帮5买 &nbsp</a></li>
+					<li><a href="">&nbsp| &nbsp 联系我们 &nbsp</a></li>
+					<li><a href="">&nbsp| &nbsp 合作商家 &nbsp</a></li>
+					<li><a href="">&nbsp| &nbsp 友情链接 &nbsp</a></li>
+					<li><a href=""> &nbsp| &nbsp 加入我们 &nbsp</a></li>
+					<li><a href=""> &nbsp| &nbsp 移动应用 &nbsp</a></li>
+					<li><a href=""> &nbsp| &nbsp 热门 &nbsp</a></li>
+					<li><a href=""> &nbsp| &nbsp 广告联盟 &nbsp</a></li>
+					<li><a href=""> &nbsp| &nbsp 使用条款 &nbsp</a></li>
+				</div>
+				<div class="db2">
+					Copyright @ 2011-2015B5M.COM.All rights served.Powered by B5Msoft Co.Ltd.
+				</div>
+				<div class="db3">
+					增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034 沪卫（中医）网审【2015】10032号沪ICP备11034776号-3|食品流通许可证：
+				</div>
+				<div class="db4">
+					SP310115240301755
+				</div>
+				<div class="db5">
+					<img src="img/db51.png" style="margin-top: 12px;">
+					<img src="img/db52.png" style="margin-top: 19px;">
+					<img src="img/db53.png" style="margin-top: 19px;">
+					<img src="img/db54.png" style="margin-top: 12px;">
+					<img src="img/db55.png" style="margin-top: 19px;">
+					<img src="img/db56.png" style="margin-top: 19px;">
+					<img src="img/db57.png" style="margin-top: 7px;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="l" class="l">
+		<div class="l1">
+			<a href="second.html" style="position: absolute;right: 0px;font-size: 35px;margin-top: -15px;opacity: 0.7;">×</a>
+			<img src="img/l1.jpg" style="margin-left: 9px;margin-top: 40px;">
+			<div class="bc7" style="margin-left: 40px;">
+       			<a href="second.html" style="color:#ff0754;">
+       			继续购物
+       			</a>
+       		</div>
+       		<div class="bc8">
+       			去购物车结算
+       		</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var bb2=document.getElementById('bb2');
+    	var bb3=document.getElementById('bb3');
+		var bc2=document.getElementById('bc2');
+	    var bc3=document.getElementById('bc3');
+	    var bc4=document.getElementById("bc4");
+	    var small1 = document.getElementById('small1');
+		var small2 = document.getElementById('small2');
+		var big = document.getElementById('big');
+		var box=document.getElementById('box');
+	 	var slider=document.getElementById('slider');
+	 	var img1=document.getElementById('img1');
+	 	var img2=document.getElementById('img2');
+	 	var Bimg=document.getElementById('Bimg');
+	   	bb2.onclick=function(){
+	    	document.getElementById('bc6').innerHTML = '<span class="bc6" id="bc6">"150ml"</span>';
+	    	bb2.style.border="solid 1px #ff0754";
+	    	bb3.style.border="none";
+	    	bb2.style.background="url(img/b.png) no-repeat 52px 20px";
+	    	bb3.style.background="none";
+	    }
+	    bb3.onclick=function(){
+	    	document.getElementById('bc6').innerHTML ='<span class="bc6" id="bc6">"200ml"</span>';
+	    	bb3.style.border="1px solid #ff0754";
+	    	bb2.style.border="none";
+	    	bb3.style.background="url(img/b.png) no-repeat 52px 20px";
+	    	bb2.style.background="none";
+	    }
+	    bc2.onclick=function(){
+	    	if(bc3.value<=1){
+	    		bc3.value = 2;
+	    	}
+	    	bc3.value--;
+	    }
+	    function c(){
+	    	if(bc3.value==5){
+	    		bc3.value = 4;
+	    	}
+	    	bc3.value++;
+	    }
+	 	img1.onmouseover=function(){
+	 		slider.style.display='block';
+	 		img2.style.display='block';
+	 	}
+	 	img1.onmouseout=function(){
+	 		slider.style.display='none';
+	 		img2.style.display='none';
+	 	}
+	 	img1.onmousemove=function(e){
+	 		var long = document.documentElement.scrollTop || window.pageXOffset || document.body.scrollTop;
+	 		var oL = e.clientX-box.offsetLeft-slider.offsetWidth/2-18;
+	 		var oT = e.clientY-box.offsetTop-slider.offsetHeight/2+long-190;
+	 		var maxLeft = img1.offsetWidth - slider.offsetWidth;
+	 		var maxTop = img1.offsetHeight -slider.offsetHeight;
+	 		oL=oL>maxLeft?maxLeft:oL<0?0:oL;
+	 		oT=oT>maxTop?maxTop:oT<0?0:oT;
+	 		slider.style.left = oL+'px';
+	 		slider.style.top = oT+'px';
+	 		var scale=Bimg.offsetHeight/img1.offsetHeight;
+	 		Bimg.style.left= '-'+oL*scale+'px';
+	 		Bimg.style.top= '-'+oT*scale+'px';
+	 	}
+		small1.onmouseover = function(){
+			big.className = 'big1';
+			small1.className = 'so';
+			small2.className = 'st';
+			Bimg.className = 'Bi';
+		}
+		small2.onmouseover = function(){
+			big.className = 'big2';
+			small2.className = 'so';
+			small1.className = 'st';
+			Bimg.className = 'Bi2';
+		}
+		var l = document.getElementById('l');
+		function shop(){
+			l.className = 'll';
+		}
+	</script>
+</body>
+</html>
